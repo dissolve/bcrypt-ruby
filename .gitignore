@@ -1,9 +1,9 @@
-doc
-pkg
-tmp
+/doc
+/pkg
+/tmp
+
+!/.bundle/config
+
 *.o
-*.bundle
 *.so
 *.jar
-.DS_Store
-.rbenv-gemsets
