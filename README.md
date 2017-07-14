@@ -25,7 +25,7 @@ re-hash those passwords. This vulnerability only affected the JRuby gem.
 
 ## How to install bcrypt
 
-    gem install bcrypt
+    gem install bcrypt4
 
 The bcrypt gem is available on the following ruby platforms:
 

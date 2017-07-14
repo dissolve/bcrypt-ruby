@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
-  s.name = 'bcrypt'
-  s.version = '3.1.11'
+  s.name = 'bcrypt4'
+  s.version = '4.0.0'
 
   s.summary = "OpenBSD's bcrypt() password hashing algorithm."
   s.description = <<-EOF
@@ -24,6 +24,6 @@ Gem::Specification.new do |s|
 
   s.authors = ["Coda Hale"]
   s.email = "coda.hale@gmail.com"
-  s.homepage = "https://github.com/codahale/bcrypt-ruby"
+  s.homepage = "https://github.com/dissolve/bcrypt-ruby"
   s.license = "MIT"
 end
