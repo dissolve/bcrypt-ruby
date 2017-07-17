@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'bcrypt4'
-  s.version = '4.0.0'
+  s.version = '4.0.1'
 
   s.summary = "OpenBSD's bcrypt() password hashing algorithm."
   s.description = <<-EOF
@@ -26,4 +26,11 @@ Gem::Specification.new do |s|
   s.email = "coda.hale@gmail.com"
   s.homepage = "https://github.com/dissolve/bcrypt-ruby"
   s.license = "MIT"
+
+  s.post_install_message = %q{
+
+The 'bcrypt' gem has had a long running issue that has prevented interop with other implementations of bcrypt.  The maintainer seems to be waiting on some specific implementation support before fixing this issue (raised 2 years ago).  The 'bcrypt4' gem was created to simply fix that issue.  I am no longer waiting for the original maintainer.
+
+}
+
 end
