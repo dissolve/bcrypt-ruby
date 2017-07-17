@@ -20,7 +20,7 @@ CLOBBER.include(
   "pkg"
 )
 
-GEMSPEC = Gem::Specification.load("bcrypt.gemspec")
+GEMSPEC = Gem::Specification.load("bcrypt4.gemspec")
 
 task :default => [:compile, :spec]
 
