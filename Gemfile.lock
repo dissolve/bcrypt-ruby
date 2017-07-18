@@ -10,7 +10,7 @@ GEM
     rake (10.5.0)
     rake-compiler (1.0.4)
       rake
-    rdoc (5.1.0)
+    rdoc (4.2.2)
     rspec (3.6.0)
       rspec-core (~> 3.6.0)
       rspec-expectations (~> 3.6.0)
@@ -34,7 +34,7 @@ PLATFORMS
 DEPENDENCIES
   bcrypt4!
   rake-compiler (~> 1.0.4)
-  rdoc (~> 5.1.0)
+  rdoc (~> 4.2.2)
   rspec (= 3.6)
 
 BUNDLED WITH
