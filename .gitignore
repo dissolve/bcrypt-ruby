@@ -1,13 +1,13 @@
 /doc
 /pkg
 /tmp
+/vendor
 
 *.o
 *.bundle
 *.so
 *.jar
-.DS_Store
-.rbenv-gemsets
 *.gem
 
-/vendor
+.DS_Store
+.rbenv-gemsets
