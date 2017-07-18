@@ -1,6 +1,7 @@
-doc
-pkg
-tmp
+/doc
+/pkg
+/tmp
+
 *.o
 *.bundle
 *.so
@@ -8,3 +9,5 @@ tmp
 .DS_Store
 .rbenv-gemsets
 *.gem
+
+/vendor
