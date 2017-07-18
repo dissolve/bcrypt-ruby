@@ -11,6 +11,7 @@ GEM
     rake-compiler (1.0.4)
       rake
     rdoc (4.2.2)
+      json (~> 1.4)
     rspec (3.6.0)
       rspec-core (~> 3.6.0)
       rspec-expectations (~> 3.6.0)
