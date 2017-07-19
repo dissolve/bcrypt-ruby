@@ -31,11 +31,11 @@ The bcrypt gem is available on the following ruby platforms:
 
 * JRuby (1.9.3 or greater)
 * RubyInstaller 1.9.3, 2.0, 2.1, and 2.2 builds on win32
-*  1.9.3 and greater or any 2.0, 2.1, 2.2, or 2.3 Ruby on a BSD/OS X/Linux system with a compiler
+*  1.9.3 and greater or any 2.0, 2.1, 2.2, 2.3, or 2.4 Ruby on a BSD/OS X/Linux system with a compiler
 
 ## How to use `bcrypt()` in your Rails application
 
-*Note*: Rails versions >= 3 ship with `ActiveModel::SecurePassword` which uses bcrypt-ruby.
+*Note*: Rails versions >= 3 ship with `ActiveModel::SecurePassword` which uses bcrypt-ruby. (not this version)
 `has_secure_password` [docs](http://api.rubyonrails.org/classes/ActiveModel/SecurePassword/ClassMethods.html#method-i-has_secure_password)
 implements a similar authentication strategy to the code below.
 

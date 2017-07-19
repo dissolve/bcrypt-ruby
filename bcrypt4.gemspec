@@ -12,6 +12,8 @@ Gem::Specification.new do |s|
   s.files = `git ls-files`.split("\n")
   s.require_path = 'lib'
 
+  s.required_ruby_version = Gem::Requirement.new(">= 1.9.3".freeze)
+
   s.add_development_dependency 'rake-compiler', '~> 1.0.4'
   s.add_development_dependency 'rspec', '3.6'
   s.add_development_dependency 'rdoc', '~> 5.1.0'
