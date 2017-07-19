@@ -21,7 +21,11 @@ script: bundle exec rake
 matrix:
   allow_failures:
     - rvm: rbx
-    #considering dropping jruby 1.8 and jruby 1.9 as incompatible, and those case use bcrypt 3.x line
+    #considering new min requirements of 1.9.3 as many branches seem to have this a min
+    - rvm: ree
+    - rvm: 1.8.7
+    - rvm: 1.9.2
     - rvm: jruby-18mode 
+    #considering dropping jruby 1.9 as incompatible, and those case use bcrypt 3.x line
     - rvm: jruby-19mode
   fast_finish: true
