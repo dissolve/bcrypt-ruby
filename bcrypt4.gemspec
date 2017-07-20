@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'bcrypt4'
-  s.version = '4.0.2'
+  s.version = '4.1.0'
 
   s.summary = "OpenBSD's bcrypt() password hashing algorithm."
   s.description = <<-EOF
@@ -31,8 +31,8 @@ Gem::Specification.new do |s|
 
   s.post_install_message = %q{
 
-  This is the last version of the bcrypt4 library that will support any format of ruby lower than 1.9.3 
-  If you are still using 1.9.2 or older, do not update past 4.0.2
+  There is a known issue with JRuby and '2y' format bcrypt hashes.
+  Due to an unfixed issue in jBCrypt, these hashes are not the same as on other implementations.
 
 }
 
