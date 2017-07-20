@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    bcrypt4 (4.0.1)
+    bcrypt4 (4.0.2)
 
 GEM
   remote: https://rubygems.org/

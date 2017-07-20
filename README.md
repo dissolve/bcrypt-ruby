@@ -2,9 +2,9 @@
 
 An easy way to keep your users' passwords secure.
 
-* http://github.com/codahale/bcrypt-ruby/tree/master
+* http://github.com/dissolve/bcrypt-ruby/tree/master
 
-[![Build Status](https://travis-ci.org/codahale/bcrypt-ruby.png?branch=master)](https://travis-ci.org/codahale/bcrypt-ruby)
+[![Build Status](https://travis-ci.org/dissolve/bcrypt-ruby.png?branch=master)](https://travis-ci.org/dissolve/bcrypt-ruby)
 
 ## Why you should use `bcrypt()`
 
@@ -30,6 +30,7 @@ re-hash those passwords. This vulnerability only affected the JRuby gem.
 The bcrypt gem is available on the following ruby platforms:
 
 * JRuby
+** NOTE: due to the reliance on JBCrypt for this library, there is a known issue with bcrypt '2y' format and this will not interoperate with other implementations for '2y' hashes (pull requests welcome).
 * RubyInstaller 1.8, 1.9, 2.0, 2.1, and 2.2 builds on win32
 * Any 1.8, 1.9, 2.0, 2.1, 2.2, or 2.3 Ruby on a BSD/OS X/Linux system with a compiler
 

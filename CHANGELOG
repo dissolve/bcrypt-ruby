@@ -88,3 +88,6 @@
 
 4.0.1 Jul 14 2017
   - Add post-install note about fork
+
+4.0.2 Jul 20 2017
+  - Add note about forthcoming gem which sets min requirements of 1.9.3

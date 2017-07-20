@@ -21,7 +21,10 @@ script: bundle exec rake
 matrix:
   allow_failures:
     - rvm: rbx
-    #considering dropping jruby 1.8 and jruby 1.9 as incompatible, and those case use bcrypt 3.x line
+    #known issue with jruby 2y hashs
     - rvm: jruby-18mode 
     - rvm: jruby-19mode
+    - rvm: jruby-head
+    # known issue with json dependency
+    - rvm: 2.4.1
   fast_finish: true
